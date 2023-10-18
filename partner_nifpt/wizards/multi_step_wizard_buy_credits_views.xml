@@ -34,6 +34,9 @@
           attrs="{'invisible': [('state', '!=', 'final')]}"
         />
       </footer>
+        <xpath expr="//div[@name='states_buttons']/button" position="attributes">
+            <attribute name="invisible">1</attribute>
+        </xpath>
     </field>
   </record>
 
