@@ -1,0 +1,84 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pt_zip_ctt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-07 15:07+0000\n"
+"PO-Revision-Date: 2023-06-07 15:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pt_zip_ctt
+#: model_terms:ir.ui.view,arch_db:l10n_pt_zip_ctt.res_config_settings_view_form
+msgid "<i class=\"fa fa-arrow-right\"/> Generate an Access Key"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#: model_terms:ir.ui.view,arch_db:l10n_pt_zip_ctt.res_config_settings_view_form
+msgid "Access Key"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#: model:ir.model,name:l10n_pt_zip_ctt.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#: model:ir.model,name:l10n_pt_zip_ctt.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#: model_terms:ir.ui.view,arch_db:l10n_pt_zip_ctt.res_config_settings_view_form
+msgid "Get Address based on the ZIP"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#. odoo-python
+#: code:addons/l10n_pt_zip_ctt/models/res_partner.py:0
+#, python-format
+msgid ""
+"Invalid zip code %s \n"
+"Correct ZIP format for Portugal: 4100-100"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#. odoo-python
+#: code:addons/l10n_pt_zip_ctt/webservice.py:0
+#, python-format
+msgid "Timeout"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#. odoo-python
+#: code:addons/l10n_pt_zip_ctt/webservice.py:0
+#, python-format
+msgid "Too many redirects"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#: model:ir.model.fields,field_description:l10n_pt_zip_ctt.field_res_config_settings__module_l10n_pt_zip_ctt
+msgid "ZIP CTT"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#. odoo-python
+#: code:addons/l10n_pt_zip_ctt/webservice.py:0
+#, python-format
+msgid ""
+"ZIP CTT API Error on service %s:\n"
+"\n"
+"%s"
+msgstr ""
+
+#. module: l10n_pt_zip_ctt
+#: model:ir.model.fields,field_description:l10n_pt_zip_ctt.field_res_config_settings__ctt_access_key
+msgid "ZIP CTT Access Key"
+msgstr ""

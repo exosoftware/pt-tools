@@ -1,0 +1,247 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_nifpt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-03 14:31+0000\n"
+"PO-Revision-Date: 2022-06-03 15:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: partner_nifpt
+#: code:addons/partner_nifpt/models/nifpt.py:0
+#: code:addons/partner_nifpt/models/show_credits.py:0
+#, python-format
+msgid " Error - {}"
+msgstr ""
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_iap_account__partner_nifpt_token
+msgid "Access Key"
+msgstr "Chave de Acesso"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__allow_back
+msgid "Allow Back"
+msgstr "Permite Voltar"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__amount
+msgid "Amount"
+msgstr "Monatante"
+
+#. module: partner_nifpt
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.res_config_settings_view_form
+msgid "Automatically fill your contact base with NIF.PT"
+msgstr "Preencha automaticamente os Contactos com base no NIF.PT"
+
+#. module: partner_nifpt
+#: model:ir.actions.act_window,name:partner_nifpt.create_buycredits_wizard
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.res_config_settings_view_form
+msgid "Buy Credits"
+msgstr "Comprar Créditos"
+
+#. module: partner_nifpt
+#: model:ir.model,name:partner_nifpt.model_res_config_settings
+msgid "Config Settings"
+msgstr "Definições das Configurações"
+
+#. module: partner_nifpt
+#: model:ir.model,name:partner_nifpt.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits__create_uid
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__create_uid
+#: model:ir.model.fields,field_description:partner_nifpt.field_show_credits__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits__create_date
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__create_date
+#: model:ir.model.fields,field_description:partner_nifpt.field_show_credits__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__credits
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.res_config_settings_view_form
+msgid "Credits"
+msgstr "Créditos"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__num_credits_buy
+msgid "Credits to buy"
+msgstr "Créditos a comprar"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits__display_name
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__display_name
+#: model:ir.model.fields,field_description:partner_nifpt.field_iap_account__display_name
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_partner__display_name
+#: model:ir.model.fields,field_description:partner_nifpt.field_show_credits__display_name
+msgid "Display Name"
+msgstr "Nome em exibição"
+
+#. module: partner_nifpt
+#: code:addons/partner_nifpt/models/nifpt.py:0
+#, python-format
+msgid "Enter an Access key in IAP Account!"
+msgstr "Digite uma Chave de Acesso no IAP Account!"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__entity
+msgid "Entity"
+msgstr "Entidade"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__field2
+msgid "Field2"
+msgstr ""
+
+#. module: partner_nifpt
+#: model:ir.model,name:partner_nifpt.model_iap_account
+msgid "IAP Account"
+msgstr "IAP Account"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits__id
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__id
+#: model:ir.model.fields,field_description:partner_nifpt.field_iap_account__id
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_config_settings__id
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_partner__id
+#: model:ir.model.fields,field_description:partner_nifpt.field_show_credits__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits____last_update
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard____last_update
+#: model:ir.model.fields,field_description:partner_nifpt.field_iap_account____last_update
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_partner____last_update
+#: model:ir.model.fields,field_description:partner_nifpt.field_show_credits____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits__write_uid
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__write_uid
+#: model:ir.model.fields,field_description:partner_nifpt.field_show_credits__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits__write_date
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__write_date
+#: model:ir.model.fields,field_description:partner_nifpt.field_show_credits__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: partner_nifpt
+#: model:ir.model,name:partner_nifpt.model_buy_credits_wizard
+msgid "Multi Step Wizard"
+msgstr ""
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_config_settings__new_credits
+msgid "New Credits"
+msgstr "Novos Créditos"
+
+#. module: partner_nifpt
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.res_config_settings_view_form
+msgid "Partner NIF"
+msgstr ""
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_res_config_settings__nif_pt
+msgid "Partner NIF Autocomplete"
+msgstr ""
+
+#. module: partner_nifpt
+#: model:ir.model.fields.selection,name:partner_nifpt.selection__iap_account__provider__partner_nifpt
+msgid "Partner NIF.PT"
+msgstr ""
+
+#. module: partner_nifpt
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.iap_account_view_form
+msgid "Partner NIF.PT Account"
+msgstr ""
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__project_id
+msgid "Project"
+msgstr "Projeto"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_iap_account__provider
+msgid "Provider"
+msgstr "Fornecedor"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__reference
+msgid "Reference"
+msgstr "Referência"
+
+#. module: partner_nifpt
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.res_config_settings_view_form
+msgid "Request an Access Key"
+msgstr "Requisitar uma Chave de Accesso"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__company
+msgid "Select your company"
+msgstr "Selecione a sua empresa"
+
+#. module: partner_nifpt
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.create_buycredits_form
+msgid "Send to email"
+msgstr "Enviar email"
+
+#. module: partner_nifpt
+#: model:ir.model.fields,field_description:partner_nifpt.field_buy_credits_wizard__state
+msgid "State"
+msgstr "Estado"
+
+#. module: partner_nifpt
+#: code:addons/partner_nifpt/models/buy_credits.py:0
+#: code:addons/partner_nifpt/models/nifpt.py:0
+#: code:addons/partner_nifpt/models/show_credits.py:0
+#, python-format
+msgid "Timeout"
+msgstr "Tempo esgotado"
+
+#. module: partner_nifpt
+#: code:addons/partner_nifpt/models/buy_credits.py:0
+#: code:addons/partner_nifpt/models/nifpt.py:0
+#: code:addons/partner_nifpt/models/show_credits.py:0
+#, python-format
+msgid "Too many redirects"
+msgstr "Muitos redirecionamentos"
+
+#. module: partner_nifpt
+#: model_terms:ir.ui.view,arch_db:partner_nifpt.create_buycredits_form
+msgid "View Details"
+msgstr "Mostrar Detalhes"
+
+#. module: partner_nifpt
+#: model:ir.model,name:partner_nifpt.model_buy_credits
+msgid "buy.credits"
+msgstr ""
+
+#. module: partner_nifpt
+#: model:ir.model,name:partner_nifpt.model_show_credits
+msgid "show.credits"
+msgstr ""

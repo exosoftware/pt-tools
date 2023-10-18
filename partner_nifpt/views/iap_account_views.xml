@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="iap_account_view_form" model="ir.ui.view">
+        <field name="model">iap.account</field>
+        <field name="inherit_id" ref="iap.iap_account_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='account']" position="after">
+                <group
+          string="Partner NIF.PT Account"
+          name="NIF"
+          attrs="{'invisible': [('provider', '!=', 'partner_nifpt')]}"
+        >
+                    <field name="partner_nifpt_token" password="True" />
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

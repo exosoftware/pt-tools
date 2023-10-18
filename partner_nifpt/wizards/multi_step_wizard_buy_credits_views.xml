@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <record id="create_buycredits_form" model="ir.ui.view">
+    <field name="name">buy_credits.wizard.form</field>
+    <field name="model">buy_credits.wizard</field>
+    <field name="mode">primary</field>
+    <field name="inherit_id" ref="multi_step_wizard.multi_step_wizard_form" />
+    <field name="arch" type="xml">
+      <xpath expr="//footer" position="before">
+        <group name="configure" attrs="{'invisible': [('state', '!=', 'start')]}">
+            <field name="num_credits_buy" type="object" />
+            <!--<field name="company" widget="many2many_tags"/>-->
+        </group>
+        <group name="final" attrs="{'invisible': [('state', '!=', 'final')]}">
+          <field name="credits" />
+          <field name="entity" />
+          <field name="reference" />
+          <field name="amount" />
+        </group>
+      </xpath>
+      <footer>
+        <button
+          name="open_next"
+          string="View Details"
+          type="object"
+          class="btn-primary"
+          attrs="{'invisible': [('state', '!=', 'start')]}"
+        />
+        <button
+          string="Send to email"
+          type="object"
+          name="send_email"
+          class="btn-primary"
+          attrs="{'invisible': [('state', '!=', 'final')]}"
+        />
+      </footer>
+    </field>
+  </record>
+
+  <record id="create_buycredits_wizard" model="ir.actions.act_window">
+      <field name="name">Buy Credits</field>
+      <field name="res_model">buy_credits.wizard</field>
+      <field name="view_mode">form</field>
+      <field name="target">new</field>
+      <field name="binding_model_id" ref="model_buy_credits_wizard" />
+      <field name="binding_view_types">form</field>
+  </record>
+</odoo>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.nif_pt</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='contacts_settings']" position="inside">
+                    <div class='row mt16 o_settings_container' id='nif_pt'>
+                        <div class="col-12 col-lg-6 o_setting_box">
+                            <div class="o_setting_left_pane">
+                                <field name="nif_pt" class="oe_inline" />
+                            </div>
+
+                            <div class="o_setting_right_pane">
+                                <label string="Partner NIF" for="nif_pt" />
+                                <div class="text-muted" id="msg_module_nif_pt">
+                                     Automatically fill your contact base with NIF.PT
+                                </div>
+                                <div
+                class="content-group"
+                attrs="{'invisible': [('nif_pt','=',False)]}"
+              >
+                                    <div class="mt8">
+                                        <a
+                    href="https://www.nif.pt/contactos/api/"
+                    class="oe_link"
+                    target="btn-link"
+                  >
+                                            <button
+                      class="btn-link"
+                      icon="fa-arrow-right"
+                      string="Request an Access Key"
+                      type="action"
+                    />
+                                        </a>
+                                    </div>
+                                    <div class="mt8">
+                                        <button
+                    type="action"
+                    name="%(partner_nifpt.create_buycredits_wizard)d"
+                    string="Buy Credits"
+                    icon="fa-arrow-right"
+                    class="btn-link"
+                  />
+                                    </div>
+                                    <div class="mt8">
+                                       <button
+                    name="set_values"
+                    class="btn-link "
+                    icon="fa-refresh"
+                    type="object"
+                  >
+                                           Credits
+                                       </button>
+                                        <field name="new_credits" class="ml8" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

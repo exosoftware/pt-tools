@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.nif_pt</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+
+            <xpath expr="//div[@name='contacts_setting_container']" position="inside">
+
+                 <div
+          class="col-xs-12 col-md-6 o_setting_box"
+          id="base_zip_ctt_settings"
+        >
+                    <div class="o_setting_left_pane">
+                        <field name="module_l10n_pt_zip_ctt" />
+                    </div>
+                    <div class="o_setting_right_pane" id="zip_ctt_params">
+                        <label for="module_l10n_pt_zip_ctt" />
+                        <div class="text-muted">
+                            Get Address based on the ZIP
+                        </div>
+                        <div
+              id="zip_ctt_params"
+              class="content-group"
+              attrs="{'invisible': [('module_l10n_pt_zip_ctt', '=', False)]}"
+            >
+                        Access Key <field name="ctt_access_key" />
+                        </div>
+                        <div
+              attrs="{'invisible': [('module_l10n_pt_zip_ctt', '=', False)]}"
+            >
+                            <a
+                href="https://www.cttcodigopostal.pt/api"
+                class="oe_link"
+                target="_blank"
+              >
+                                <i class="fa fa-arrow-right" /> Generate an Access Key
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </xpath>
+
+        </field>
+    </record>
+</odoo>
