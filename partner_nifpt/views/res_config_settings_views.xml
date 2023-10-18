@@ -24,16 +24,14 @@
                                     <div class="mt8">
                                         <a
                     href="https://www.nif.pt/contactos/api/"
-                    class="oe_link"
-                    target="btn-link"
+                    class="btn-link"
+                    target="_blank"
                   >
-                                            <button
-                      class="btn-link"
-                      icon="fa-arrow-right"
-                      string="Request an Access Key"
-                      type="action"
-                    />
+                                            <i
+                      class="fa fa-arrow-right"
+                    /> Request an Access Key
                                         </a>
+
                                     </div>
                                     <div class="mt8">
                                         <button
